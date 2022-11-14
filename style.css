@@ -1,0 +1,98 @@
+.päis {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-color: bisque;
+}
+
+.sisu {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  min-height: 100px;
+  overflow: hidden;
+}
+
+.sisu > div {
+  width: 50%;
+}
+
+.aken {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.page-links > a {
+  height: 70px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+
+.galerii {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 20px;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 200px 200px;
+  padding: 10px;
+  height: auto;
+}
+
+.galerii > div {
+  flex-basis: 50%;
+}
+
+.pilt > {
+  width: 200px;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.ikoonid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
